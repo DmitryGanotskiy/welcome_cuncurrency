@@ -1,6 +1,5 @@
 import React from "react";
-import Chat from "/home/robothg/Desktop/Leipzig/Lecture_ThirdYear/Concurrency/code/welcome_c-/hello_react/chat-app/src/component/Chat.js";
-
+import Chat from "./component/Chat.js"
 
 function App() {
   return (
