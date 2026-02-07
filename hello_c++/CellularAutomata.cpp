@@ -4,7 +4,7 @@
 #include<iostream>
 #include <string>
 #include <bitset>
-using namespace
+using namespace std;
 
 // https://www.geeksforgeeks.org/cpp/containers-cpp-stl/
 //  8-bit binary number.

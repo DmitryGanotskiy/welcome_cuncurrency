@@ -10,8 +10,8 @@ addThree  = n + s
         where n =10 
               s = 5
 
-oddEven :: Double -> String
-oddEven value =
+oddEven :: Int -> String
+oddEven v(value) =
     if value `mod` 2 == 0
         then evenStr
         else oddStr
@@ -19,4 +19,10 @@ oddEven value =
     evenStr = "even"
     oddStr  = "odd"
 
+min_max :: [Int] -> Int
+min_max ([a]) = max([a])
 
+
+
+listLength :: [Int] -> Int
+listLength ([a]) = length([a])
